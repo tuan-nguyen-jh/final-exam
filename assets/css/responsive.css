@@ -1,0 +1,56 @@
+@media screen and (min-width: 756px) {
+  .header {
+    flex-direction: column-reverse;
+  }
+
+  .header h1 {
+    font-size: 32px;
+  }
+
+  .header .logo {
+    width: 150px;
+  }
+
+  .timer span {
+    font-size: 160px;
+    margin: 0 0 24px;
+  }
+
+  .start-btn {
+    width: 10%;
+  }
+
+  .question {
+    font-size: 32px;
+    width: 100%;
+    padding: 0 24px;
+  }
+
+  .choice {
+    width: 150px;
+    margin: 0 8px;
+  }
+
+  .answer {
+    font-size: 26px;
+    width: 100%;
+    padding: 0 24px;
+    text-align: center;
+  }
+
+  .answer-form {
+    width: 80%;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .answer-form .input {
+    flex: 4;
+  }
+
+  .answer-form .submit-btn {
+    flex: 1;
+    margin: 0;
+  }
+}

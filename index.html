@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Final exam</title>
+    <!-- font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inder&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" type="text/css" href="./assets/css/styles.css" />
+    <link rel="stylesheet" type="text/css" href="./assets/css/responsive.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <img src="./assets/img/logo.png" alt="app logo" class="logo" />
+        <h1>Type your answerrr</h1>
+      </header>
+      <section class="main">
+        <div class="timer">
+          <span id="counter">00</span>
+        </div>
+        <button id="start-btn" class="btn start-btn">Start</button>
+        <p id="question" class="question">some random questions</p>
+        <p id="score" class="score">Your score: 00</p>
+        <form id="answer-form" class="answer-form">
+          <div class="choices-container"></div>
+          <input
+            type="text"
+            id="ans-input"
+            class="input"
+            placeholder="Your answer"
+          />
+          <button type="submit" id="submit-btn" class="btn submit-btn">
+            Submit
+          </button>
+        </form>
+      </section>
+    </div>
+    <script type="module" src="./js/script.js"></script>
+  </body>
+</html>
