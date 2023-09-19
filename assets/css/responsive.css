@@ -1,4 +1,4 @@
-@media screen and (min-width: 756px) {
+@media screen and (min-width: 800px) {
   .header {
     flex-direction: column-reverse;
   }
@@ -26,9 +26,14 @@
     padding: 0 24px;
   }
 
+  .choices-container {
+    width: 80%;
+  }
+
   .choice {
-    width: 150px;
+    width: 20%;
     margin: 0 8px;
+    font-size: 22px;
   }
 
   .answer {
@@ -38,8 +43,9 @@
     text-align: center;
   }
 
-  .answer-form {
+  .text-container {
     width: 80%;
+    display: none;
     flex-direction: row;
     justify-content: center;
     gap: 20px;

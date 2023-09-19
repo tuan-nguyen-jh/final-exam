@@ -29,19 +29,22 @@
         <p id="question" class="question">some random questions</p>
         <p id="score" class="score">Your score: 00</p>
         <form id="answer-form" class="answer-form">
-          <div class="choices-container"></div>
-          <input
-            type="text"
-            id="ans-input"
-            class="input"
-            placeholder="Your answer"
-          />
-          <button type="submit" id="submit-btn" class="btn submit-btn">
-            Submit
-          </button>
+          <div id="choices-container" class="choices-container"></div>
+          <div id="text-container" class="text-container">
+            <input
+              type="text"
+              id="ans-input"
+              class="input"
+              placeholder="Your answer"
+            />
+            <button type="submit" id="submit-btn" class="btn submit-btn">
+              Submit
+            </button>
+          </div>
         </form>
       </section>
     </div>
-    <script type="module" src="./js/script.js"></script>
+    <!-- <script type="module" src="./js/script.js"></script> -->
+    <script type="module" src="./js/quizGame/index.js"></script>
   </body>
 </html>
